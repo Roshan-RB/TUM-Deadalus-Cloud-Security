@@ -1,2 +1,10 @@
 .DS_Store
 .terraform
+aws/
+awscliv2.zip
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log

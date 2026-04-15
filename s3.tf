@@ -63,3 +63,9 @@ resource "aws_s3_object" "secret_image" {
   key    = "critical/financials.png"
   source = "image/financials.png"
 }
+
+resource "aws_s3_object" "car_image" {
+  bucket = aws_s3_bucket.tropical_vault_bucket.id
+  key    = "critical/car_.jpg"
+  source = "image/car_.jpg"
+}
